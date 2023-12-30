@@ -67,6 +67,7 @@ const MovieComponent = ({ popular }) => {
                ))}
             </Box>
          </Card>
+         hi
       </Box>
    )
 }
