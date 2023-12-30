@@ -1,0 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+.masked-text {
+    background-image: url('https://wallpapers.com/images/featured/movie-9pvmdtvz4cb0xl37.jpg');
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
