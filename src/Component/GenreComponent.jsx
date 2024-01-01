@@ -37,7 +37,7 @@ const GenreComponent = ({ props }) => {
 
             <Box sx={{ display: 'flex', flexWrap: 'wrap' }}>
                {movies.map((data, movieKey) => (
-                  <MovieCard props={{ data, movieKey, genreKey }} />
+                  <MovieCard props={{ data, movieKey, genreKey }} key={movieKey}/>
                ))}
             </Box>
          </Card>
